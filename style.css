@@ -56,6 +56,8 @@ img
 body
 {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 .signup-button
 {
@@ -161,4 +163,15 @@ body
 {
     border: 2px solid white;
     height: fit-content;
+}
+
+footer
+{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    justify-self: flex-end;
 }
