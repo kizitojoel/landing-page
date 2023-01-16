@@ -57,7 +57,7 @@ body
 {
     margin: 0;
 }
-.signup
+.signup-button
 {
     flex-grow: 0;
     width: 80px;
@@ -70,9 +70,12 @@ body
 .card p{
     color: #e5e7eb;
 }
-h3{
+.header h3{
     font-size: 48px;
-    font-weight: bolder; color: #f9faf8
+    font-weight: bolder; 
+    color: #f9faf8;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .content
@@ -96,18 +99,21 @@ h3{
 }
 .img-placeholder
 {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: #3882f6 solid 3px;
     border-radius: 10px;
+    margin-bottom: 4px;
 }
 .random p{
     max-width: 200px;
+    margin-top: 0px;
 }
 .content h3{
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 12px;
 }
 .quote-container
 {
@@ -134,5 +140,25 @@ h3{
 }
 .quote span{
     align-self: flex-end;
+}
 
+.signup{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call-to-action
+{
+    background-color: #3882f6;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    padding: 32px 56px 32px;
+    align-items: center;
+}
+.call-to-action .signup-button
+{
+    border: 2px solid white;
+    height: fit-content;
 }
